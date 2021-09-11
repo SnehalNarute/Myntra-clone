@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--========== BOX ICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<!--========== BOX ICONS ==========-->
+<link href='css/style.css' rel='stylesheet'>
+
+</head>
+<body>
+        <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav">
+            <!-- ------   Toggle icon     ------ -->
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            
+            <a href="#" class="nav__logo">Myntra</a>
+            <div class="right-section">
+                <i class='bx bxs-plus-square bx-sm'></i>
+                <i class='bx bx-search bx-sm first_icon'></i>
+                <i class='bx bx-heart bx-sm second_icon'></i>
+                <i class='bx bx-shopping-bag bx-sm third_icon'></i>
+            </div>
+            <div class="nav__menu nav-menu">
+                <ul class="links">
+                    <img src="./assets/img-resp/resp-header.jpg" alt="">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">Men</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Women</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Kids</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home & Living</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Beauty</a>
+                    </li>
+                    <div class="linebreak"></div>
+                    <!-- .linebreak, .nav__other_menu, .links img -->
+                    <ul class="nav__other_menu">
+                        <li class="nav__item">Myntra Studio</li>
+                        <li class="nav__item">Myntra Mall</li>
+                        <li class="nav__item">Myntra Insider</li>
+                        <li class="nav__item">Gift Cards</li>
+                        <li class="nav__item">Contact Us</li>
+                        <li class="nav__item">FAQs</li>
+                        <li class="nav__item">Legal</li>
+                    </ul>
+                    <li class="search-align">
+                        <div class="desktop-search">
+                            <i class='bx bx-search search_icon'></i>
+                            <input type="text" placeholder="Search for products, brands more">
+                        </div>
+                    </li>
+                    
+                </ul>
+                    <!-- <div class="nav-align-right"> -->
+                    <ul class="nav-align-right">
+                        <li class="nav__item__right">
+                            <i class='bx bx-user first-icon' ></i>
+                            <span class="nav__right">Profile</span>
+                        </li>
+                        <li class="nav__item__right">
+                            <i class='bx bx-heart second-icon' ></i>
+                            <span class="nav__right">Wishlist</span>
+                        </li>
+                        <li class="nav__item__right">
+                            <i class='bx bx-shopping-bag third-icon' ></i>
+                            <span class="nav__right">Bag</span>
+                        </li>
+                    </ul>
+                    <!-- </div> -->
+
+            </div>
+            <!-- <div class="nav__other_menu">
+
+            </div> -->
+        </nav>
+    </header>
+
+    <!--========== MAIN ==========-->
+    <main class="l-main">
+            <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="./assets/img/fashion.jpg" alt="fashion image">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/kurta.jpg" alt="kurta image">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/sale.jpg" alt="sale image">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+                <!--automatic navigation end-->
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+        </div>
+        <!--image slider end-->
+
+        <!-- for screens less than 796px show below div inside main section -->
+        <div class="responsive resp-container">
+            <img src="./assets/img-resp/first1.jpg" alt="" class="main-img">
+
+            <div class="mid-section">
+                <img src="./assets/img-resp/midimg.jpg" alt="">
+
+                <div class="mid-img">
+                    <img src="./assets/img-resp/midimg1.jpg" alt="" class="midimg mid-first">
+                    <img src="./assets/img-resp/midimg2.jpg" alt="" class="midimg mid-second">
+                </div>
+
+                <div class="midnight-deals">
+                    <h2>MIDNIGHT DEALS</h2>
+                    <img src="./assets/img-resp/second1.jpg" alt="" class="midnight_deals">
+                    <img src="./assets/img-resp/second2.jpg" alt="" class="midnight_deals">
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- =================== DEALS SECTION ======================= -->
+    <section class="deals section bd-container">
+        <h2>DEALS OF THE DAY</h2>
+        <div class="deals__container bd-grid">
+            <div class="deals-data">
+                <img src="./assets/img/first1.jpg" alt="">
+            </div>
+            <div class="deals-data">
+                <img src="./assets/img/first2.jpg" alt="">
+            </div>
+            <div class="deals-data">
+                <img src="./assets/img/first3.jpg" alt="">
+            </div>
+            <div class="deals-data">
+                <img src="./assets/img/first4.jpg" alt="">
+            </div>
+            <div class="deals-data">
+                <img src="./assets/img/first5.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- =================== BRAND SECTION ======================= -->
+<section class="brand section bd-container">
+    <h2>BIGGEST DEALS ON TOP BRANDS</h2>
+    <div class="brand__container bd-grid">
+        <div class="brand-data">
+            <img src="./assets/img/second1.jpg" alt="">
+        </div>
+        <div class="brand-data">
+            <img src="./assets/img/second2.jpg" alt="">
+        </div>
+        <div class="brand-data">
+            <img src="./assets/img/second3.jpg" alt="">
+        </div>
+        <div class="brand-data">
+            <img src="./assets/img/second4.jpg" alt="">
+        </div>
+        <div class="brand-data">
+            <img src="./assets/img/second5.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- =================== BRAND SECTION ======================= -->
+<section class="westernwear section bd-container">
+    <h2>TRENDING IN WESTERN WEAR</h2>
+    <div class="westernwear__container bd-grid">
+        <div class="westernwear-data">
+            <img src="./assets/img/third1.jpg" alt="">
+        </div>
+        <div class="westernwear-data">
+            <img src="./assets/img/third2.jpg" alt="">
+        </div>
+        <div class="westernwear-data">
+            <img src="./assets/img/third3.jpg" alt="">
+        </div>
+        <div class="westernwear-data">
+            <img src="./assets/img/third4.jpg" alt="">
+        </div>
+        <div class="westernwear-data">
+            <img src="./assets/img/third5.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container footer-grid">
+    
+                <div class="footer__content footer-first">
+                    <h6 class="footer__title">ONLINE SHOPPING</h6>
+                    <ul class="footer-ul">
+                        <li><a href="#" class="footer__link">Men</a></li>
+                        <li><a href="#" class="footer__link">Women</a></li>
+                        <li><a href="#" class="footer__link">Kids</a></li>
+                        <li><a href="#" class="footer__link">Home & Living</a></li>
+                        <li><a href="#" class="footer__link">Beauty</a></li>
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content footer-second">
+                    <h6 class="footer__title">USEFUL LINKS</h6>
+                    <ul class="footer-ul">
+                        <li><a href="#" class="footer__link">Contact Us</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                        <li><a href="#" class="footer__link">T&C</a></li>
+                        <li><a href="#" class="footer__link">Terms Of Use</a></li>
+                        <li><a href="#" class="footer__link">Track Orders</a></li>
+                        <li><a href="#" class="footer__link">Shipping</a></li>
+                        <li><a href="#" class="footer__link">Cancellation</a></li>
+                        <li><a href="#" class="footer__link">Returns</a></li>
+                        <li><a href="#" class="footer__link">Whitehat</a></li>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Careers</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Site Map</a></li>
+    
+                    </ul>
+                </div>
+    
+                <div class="footer__content footer-third">
+                    <h6 class="footer__title">EXPERIENCE MYNTRA APP ON MOBILE</h6>
+                    <ul class="footer-ul footer-img">
+                        <li><img src="./assets/img/google play.jpg" alt=""></li>
+                        <li class="app-store"><img src="./assets/img/app store.jpg" alt=""></li>
+                    </ul>
+                    <div class="footer-social">
+                        <h6>KEEP IN TOUCH</h6>
+                        <div class="social-top">
+                            <a href="#"><i class='bx bxl-facebook-square bx-sm'></i></a>
+                            <a href="#"><i class='bx bxl-twitter bx-sm' ></i></a>
+                            <a href="#"><i class='bx bxl-youtube bx-sm' ></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt bx-sm' ></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer__content footer-last">
+                    <div class="footer-guarantee">
+                        <a href="#" class="footer__social "><img src="./assets/img/original.jpg" alt=""></a>
+                        <p><strong>100% ORIGINAL</strong> guarantee <br> for all products at myntra.com</p>
+                    </div>
+                    <div class="footer-moneyback">
+                        <a href="#" class="footer__social"><img src="./assets/img/back.jpg" alt=""></a>
+                        <p><strong>Return within 30 days</strong> of <br> receiving your order</p>
+                    </div>
+                </div>
+            </div>
+    
+            <p class="footer__copy">&#169; 2021 <span>www.myntra.com. All rights reserved</span></p>
+        </footer>
+
+        <!--========== MAIN JS ==========-->
+        <script src="/main.js"></script>
+</body>
+</html>
